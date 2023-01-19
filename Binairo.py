@@ -237,9 +237,9 @@ def afficher_solution(grille):
 
 def give_solution():
     if is_empty():
-        command= f'../picosat-960/picosat --all ./dimacs_{nbr_cases}.cnf > resultat.txt'
+        command= f'./picosat-960/picosat --all ./dimacs_{nbr_cases}.cnf > resultat.txt'
     else:
-        command='../picosat-960/picosat --all'
+        command='./picosat-960/picosat --all'
         contraintes=save_grid()
         contraintes=read_contraintes(contraintes)
         for i in range(len(contraintes)):

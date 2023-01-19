@@ -2,6 +2,8 @@ Manuel d'utilisation des différents programmes.
 
 Se placer dans  Projet/Logique Binairo
 
+Il est nécessaire d'avoir le SAT-Solver picost-960 dans le dossier courant.
+
 Pour lancer le programme avec l'interface
 - Faire make run_interface
 - H permets de connaitre les règles
