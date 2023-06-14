@@ -23,4 +23,6 @@ Une fois les fichiers dimacs créés on peut tester de trouver une solution uniq
 
 On peut également chercher toutes les solutions possibles mais au dela de 8 le temps de calcul sera beaucoup trop long.
 
+Projet réalisé avec Judicaël Marion
+
 
